@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-04T15:47:41 IST" name="Default suite" finished-at="2024-09-04T15:47:51 IST" duration-ms="9813">
+    <groups>
+    </groups>
+    <test started-at="2024-09-04T15:47:41 IST" name="Default test" finished-at="2024-09-04T15:47:51 IST" duration-ms="9813">
+      <class name="com.page.test.LoginPageTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:41 IST" name="startReport" finished-at="2024-09-04T15:47:41 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="createTestExtentReport()[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:41 IST" name="createTestExtentReport" finished-at="2024-09-04T15:47:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestExtentReport -->
+        <test-method signature="verifyLoginPageOpened()[pri:1, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:41 IST" name="verifyLoginPageOpened" finished-at="2024-09-04T15:47:43 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageOpened -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:43 IST" name="getResult" finished-at="2024-09-04T15:47:43 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageOpened status=SUCCESS method=LoginPageTest.verifyLoginPageOpened()[pri:1, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyUsernameTextboxDisplayed()[pri:2, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:43 IST" name="verifyUsernameTextboxDisplayed" finished-at="2024-09-04T15:47:44 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameTextboxDisplayed -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:44 IST" name="getResult" finished-at="2024-09-04T15:47:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsernameTextboxDisplayed status=SUCCESS method=LoginPageTest.verifyUsernameTextboxDisplayed()[pri:2, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyPasswordTextboxDisplayed()[pri:3, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:44 IST" name="verifyPasswordTextboxDisplayed" finished-at="2024-09-04T15:47:46 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordTextboxDisplayed -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:46 IST" name="getResult" finished-at="2024-09-04T15:47:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordTextboxDisplayed status=SUCCESS method=LoginPageTest.verifyPasswordTextboxDisplayed()[pri:3, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyLoginButtonIsDisplayed()[pri:4, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:46 IST" name="verifyLoginButtonIsDisplayed" finished-at="2024-09-04T15:47:47 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonIsDisplayed -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:47 IST" name="getResult" finished-at="2024-09-04T15:47:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginButtonIsDisplayed status=SUCCESS method=LoginPageTest.verifyLoginButtonIsDisplayed()[pri:4, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyLoginButtonEnabled()[pri:5, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:47 IST" name="verifyLoginButtonEnabled" finished-at="2024-09-04T15:47:48 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonEnabled -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:48 IST" name="getResult" finished-at="2024-09-04T15:47:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginButtonEnabled status=SUCCESS method=LoginPageTest.verifyLoginButtonEnabled()[pri:5, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyUsernameTextboxEmptyDefault()[pri:6, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:48 IST" name="verifyUsernameTextboxEmptyDefault" finished-at="2024-09-04T15:47:50 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameTextboxEmptyDefault -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:50 IST" name="getResult" finished-at="2024-09-04T15:47:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsernameTextboxEmptyDefault status=SUCCESS method=LoginPageTest.verifyUsernameTextboxEmptyDefault()[pri:6, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="verifyPasswordTextboxEmptyDefault()[pri:7, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:50 IST" name="verifyPasswordTextboxEmptyDefault" finished-at="2024-09-04T15:47:51 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordTextboxEmptyDefault -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:51 IST" name="getResult" finished-at="2024-09-04T15:47:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordTextboxEmptyDefault status=SUCCESS method=LoginPageTest.verifyPasswordTextboxEmptyDefault()[pri:7, instance:com.page.test.LoginPageTest@120f38e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.page.test.LoginPageTest@120f38e6]" started-at="2024-09-04T15:47:51 IST" name="endReport" finished-at="2024-09-04T15:47:51 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.page.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
