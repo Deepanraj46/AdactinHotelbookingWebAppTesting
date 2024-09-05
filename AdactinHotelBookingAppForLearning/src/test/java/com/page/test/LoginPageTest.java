@@ -75,4 +75,18 @@ public class LoginPageTest extends ExtentReportBaseCode{
 		Assert.assertTrue(Lp.PasswordTextboxEmptyDefault("LP001"), "Login page is opened");
 	
 	}
+	
+	@Test(enabled = true, priority = 8)
+	public void verifyUsernameTextboxEmptyValidation() throws Exception {
+		LogReport("To verify Loge Page Header");		
+		Assert.assertTrue(Lp.UsernameTextboxEmptyValidation("LP001"), "Login page is opened");
+	
+	}
+	
+	@Test(enabled = true, priority = 9)
+	public void verifyPasswordTextboxEmptyValidation() throws Exception {
+		LogReport("To verify Loge Page Header");		
+		Assert.assertTrue(Lp.PasswordTextboxEmptyValidation("LP001"), "Login page is opened");
+	
+	}
 }

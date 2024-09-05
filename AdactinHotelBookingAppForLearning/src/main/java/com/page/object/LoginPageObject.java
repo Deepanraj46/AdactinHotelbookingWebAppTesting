@@ -26,10 +26,10 @@ public class LoginPageObject extends BaseClass {
 
 	@FindBy(xpath = "//*[@id=\"password_span\"]")
 	private WebElement ValidationErrorMsgPasswordTextboxLoginPage;
-	
+
 	@FindBy(xpath = "//*[@id=\"login_form\"]/table/tbody/tr[5]/td[2]/div/b")
 	private WebElement InvalidUserValidationErrorMsgLoginPage;
-	
+
 	public LoginPageObject() {
 		// TODO Auto-generated constructor stub
 
@@ -52,6 +52,7 @@ public class LoginPageObject extends BaseClass {
 
 		return false;
 	}
+
 	public boolean UsernameTextboxDisplayed(String Tc) throws IOException, InterruptedException {
 		Thread.sleep(1000);
 		ss.passScreenCapture(driver, Tc);
@@ -61,7 +62,7 @@ public class LoginPageObject extends BaseClass {
 
 		return false;
 	}
-	
+
 	public boolean PasswordTextboxDisplayed(String Tc) throws IOException, InterruptedException {
 		Thread.sleep(1000);
 		ss.passScreenCapture(driver, Tc);
@@ -81,7 +82,7 @@ public class LoginPageObject extends BaseClass {
 
 		return false;
 	}
-	
+
 	public boolean LoginButtonEnabled(String Tc) throws IOException, InterruptedException {
 		Thread.sleep(1000);
 		ss.passScreenCapture(driver, Tc);
@@ -91,7 +92,7 @@ public class LoginPageObject extends BaseClass {
 
 		return false;
 	}
-	
+
 	public boolean UsernameTextboxEmptyDefault(String Tc) throws IOException, InterruptedException {
 		Thread.sleep(1000);
 		ss.passScreenCapture(driver, Tc);
@@ -101,11 +102,37 @@ public class LoginPageObject extends BaseClass {
 
 		return false;
 	}
-	
+
 	public boolean PasswordTextboxEmptyDefault(String Tc) throws IOException, InterruptedException {
 		Thread.sleep(1000);
 		ss.passScreenCapture(driver, Tc);
 		if (passwordTextbox.getText().equals("")) {
+			return true;
+		}
+
+		return false;
+	}
+
+	public boolean UsernameTextboxEmptyValidation(String Tc) throws IOException, InterruptedException {
+		setText(passwordTextbox, "sdfdss");
+		loginButton.click();
+		Thread.sleep(1000);
+		ss.passScreenCapture(driver, Tc);
+		if (ValidationErrorMsgUsernameTextboxLoginPage.isDisplayed()) {
+			return true;
+		}
+
+		return false;
+	}
+
+	public boolean PasswordTextboxEmptyValidation(String Tc) throws IOException, InterruptedException {
+		passwordTextbox.clear();
+		setText(usernameTextbox, "Admin");
+		setText(passwordTextbox, "");
+		loginButton.click();
+		Thread.sleep(1000);
+		ss.passScreenCapture(driver, Tc);
+		if (ValidationErrorMsgPasswordTextboxLoginPage.isDisplayed()) {
 			return true;
 		}
 

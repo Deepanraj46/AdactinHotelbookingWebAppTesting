@@ -37,7 +37,7 @@ public class BaseClass {
 		if (driver == null) {
 			if (browser.equals("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
-						"D:\\drivers(C)\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+						"D:\\drivers(C)\\chromedriver-win64 (5)\\chromedriver-win64\\chromedriver.exe");
 //				Map<String, Object> prefs = new HashMap<String, Object>();
 //				prefs.put("profile.default_content_setting_values.notifications", 2);
 //				prefs.put("credentials_enable_service", false);
